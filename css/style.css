@@ -12,6 +12,7 @@
     font-family: 'iran_sans_medi';
     src: url('../Fonts/iran_sans_medi.woff') format('woff');
 }
+
 *{
     font-family:iran_sans_light;
     margin: 0;
@@ -34,7 +35,7 @@ header{
     left: 0;
     right: 0;
     z-index: 1000;
-    background: #fff;
+    background: #e75353;
     padding: 2rem 9%;
     display: flex;
     align-items: center;
@@ -43,12 +44,12 @@ header{
 }
 header .logo{
     font-size: 2rem;
-    color: #000;
+    color: #e4e26a;
     font-weight: 500;
 }
 header .navbar a{
     font-size: 1.5rem;
-    color: #000;
+    color: #3b3838;
     margin: 0 2rem;
 }
 header .navbar a:hover{
@@ -71,7 +72,7 @@ header .icons a:hover{
     cursor: pointer;
     display: none;
 }
-/* end header  */
+
 section{
     padding: 2rem 9%;
 }
@@ -171,7 +172,7 @@ section{
 .home #next{
     right: 3rem;
 }
-/* end home  */
+
 .heading{
     text-align: center;
     font-size: 3rem;
@@ -261,7 +262,7 @@ section{
     font-size: 1.7rem;
     color: orangered;
 }
-/* end product  */
+
 .featured .row{
     display: flex;
     flex-wrap: wrap;
@@ -328,7 +329,7 @@ section{
     color: orange;
     text-decoration: line-through;
 }
-/* end featured  */
+
 .blog .box-container{
     display: flex;
     flex-wrap: wrap;
@@ -366,7 +367,7 @@ section{
     color: orangered;
     font-size: 2rem;
 }
-/* end blog  */
+
 .news{
     padding-top: .5rem;
     padding-bottom: .5rem;
@@ -407,7 +408,7 @@ section{
 .news .content form .btn{
     border-radius: none;
 }
-/* end news  */
+
 .cridet .box{
     padding: .1rem;
     text-align: center;
